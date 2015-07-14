@@ -1,0 +1,28 @@
+[{
+id:0,
+name:'BedRoom',
+lastText: 'Hello World',
+ip:"http://bedroom.local",
+no_of_switches:4
+face:'img/bedroom.jpg'
+type:"F,F,F,F"
+},
+{
+id:1,
+name:'Kitchen',
+lastText: 'Hello World',
+ip:"http://bedroom.local",
+no_of_switches:4
+type:"F,F,F,F"
+face:'img/kitchen.jpeg'
+},
+{
+id:2,
+name:'Hall',
+lastText: 'Hello World',
+ip:"http://bedroom.local",
+no_of_switches:4
+type:"F,F,F,F"
+face:'img/Hall.jpg'
+}
+]

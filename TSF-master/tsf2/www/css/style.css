@@ -1,0 +1,56 @@
+.my-button,
+.my-button:before{
+  font-size:48px;
+  border: none;
+  
+}
+.padding-30{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.bar-header {
+    background-size: 100% 0px;
+}
+.background-positive{
+	background-color: #D9D9D9;
+}
+.outer{
+	position: relative;
+}
+.right{
+float: right;
+}
+/* Empty. Add your own CSS if you like */
+.current{
+  background: #D9D9D9 !important;
+}/* Empty. Add your own CSS if you like */
+#dark {
+  background-color: #3f4041 !important;
+  color: #ffffff;
+}
+.size-30{
+  font-size: 30px;
+}
+.modal{
+  top: 0 ;
+  bottom: 0 ; 
+  left: 0 ; 
+  right: 0 ;
+  width: 100% ;
+}
+
+.circle {
+      
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: center;
+    line-height: 100px;
+}
+.bg-off{
+  background: #D9D9D9 ;
+}
+.bg-on{
+  background: #33cd5f
+}

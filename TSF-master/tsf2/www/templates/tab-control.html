@@ -1,0 +1,36 @@
+<ion-side-menus>
+    
+      <ion-side-menu-content>
+            <ion-view>
+
+            <ion-nav-view name="tab-details"></ion-nav-view>
+            <ion-view>
+        </ion-side-menu-content>
+    
+      <ion-side-menu expose-aside-when="large" class="has-subheader">
+
+<ion-view view-title="Chats">
+  <ion-content>
+    <ion-list>
+      <!--<ion-item menu-close class="item-remove-animate item-thumbnail-left item-icon-right" id="dark" ng-click="select($index)" ng-class="{current: $index == selected}" ng-repeat="chat in chats" type="item-text-wrap" ui-sref="tab.chats.chat-detail({chatId : chat.id})">
+        <img ng-src="{{chat.face}}">
+        <h2 class="current">{{chat.name}}</h2>
+        <p class="current">{{chat.lastText}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="select(chat)">
+          Delete
+        </ion-option-button>
+      </ion-item >-->
+      <a menu-close class="item item-remove-animate item-thumbnail-left item-icon-right" type="item-text-wrap" ng-repeat="chat in chats" ui-sref="tab.chats.chat-detail({chatId : chat.id})" ng-click="select($index)" ng-class="{current: $index == selected}">
+      <img ng-src="{{chat.face}}">
+      <h2>{{chat.name}}</h2>
+      <i class="icon ion-chevron-right icon-accessory"></i>
+      
+    </a>
+    </ion-list>
+  </ion-content>
+</ion-view>
+ </ion-side-menu>
+</ion-side-menus>
+ 
