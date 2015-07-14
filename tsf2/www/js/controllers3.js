@@ -1,6 +1,9 @@
 angular.module('starter.controllers', ['ionic'])
 
+.controller('SetupCtrl', function($scope) {})
+
 .controller('DashCtrl', function($scope) {})
+
 
 .controller('ChatsCtrl', function($scope,$stateParams,$location,$http, Chats) {
   // With the new view caching in Ionic, Controllers are only called
@@ -120,4 +123,8 @@ angular.module('starter.controllers', ['ionic'])
     enableFriends: true
   };
 });
+
+.controller('WelcomeCtrl', function($scope) {
+
+  };
 
