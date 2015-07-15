@@ -1,6 +1,10 @@
 angular.module('starter.controllers', ['ionic'])
 
-.controller('SetupCtrl', function($scope) {})
+.controller('SetupCtrl', function($scope) {
+
+  console.log("Hello Controller");
+
+})
 
 .controller('DashCtrl', function($scope) {})
 
@@ -124,7 +128,4 @@ angular.module('starter.controllers', ['ionic'])
   };
 });
 
-.controller('WelcomeCtrl', function($scope) {
-
-  };
 
